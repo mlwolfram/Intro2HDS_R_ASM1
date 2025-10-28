@@ -11,4 +11,6 @@ link-ciations: true
 
 ## Introduction:
 
-An estimation of 17.9 million people have lost their lives due to Cardiovascular Disease (CVD) each year globally^[@cvd_who]. Cardiovascular Disease is a collective term for heart and blood vessels disorders, which includes Coronary Heart Disease (CHD), Strokes, Peripheral Arterial Disease, and Aortic Disease^[@cvd_nhs], whilst having CHD as the most common type^[@cvd_ny_doh]. Coronary Heart Disease specifically describes the condition of having fatty substances built up and blocked the heart's blood supply. The main symptoms include chest pain, neck pain, and shortness of breath. CHD can be prevented by eating healthy diet, doing exercise regularly, and avoiding sugar consumption^[@chd_nhs].
+Cardiovascular Disease (CVD) is a collective term for heart and blood vessels disorders, which includes Coronary Heart Disease (CHD), Strokes, Peripheral Arterial Disease, and Aortic Disease^[@cvd_nhs], whilst having CHD as the most common type^[@cvd_ny_doh]. CHD specifically describes the condition of having fatty substances built up and blocked the heart's blood supply. The main symptoms include chest pain, neck pain, and shortness of breath. CHD can be prevented by eating healthy diet, doing exercise regularly, and reducing sugar intake^[@chd_nhs].
+
+Despite being effortlessly to prevent, an estimation of 17.9 million people have lost their lives globally due to all types of CVD combined each year^[@cvd_who]. This makes CVD responsible for 1 in every 3 deaths worldwide^[@hd_cdc].
