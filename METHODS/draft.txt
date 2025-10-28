@@ -1,12 +1,10 @@
----
-title: "Proposal"
-output: pdf_document
----
 
-# Coronary heart disease (CHD) patient hospitalisations
+---
+# LOG
+dataset - Coronary heart disease (CHD) patient hospitalisations
 
 1. Identify and briefly describe the health care problem you want to highlight, and the target audience.
-- what is CHD?
+//- what is CHD?
 - why is CHD important?
 - current trend of CHD mortality in United Kingdom
 - economic burden of CHD (normalised from CVD) in United Kingdom (average)
@@ -46,3 +44,4 @@ output: pdf_document
 - future trend of CHD hospitalisations in Scotland (y + 5) ---> time-series dot graph + change in colour after Y
 - future total cost by (cost of healthcare per patient in Scotland in 2025 * number of predicted incoming patients) ---> PIE CHART for DIRECT COST + INDIRECT COST/TOTAL COST
 - target audience = policy makers, academics ---> NONE
+---

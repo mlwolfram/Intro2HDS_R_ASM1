@@ -1,0 +1,14 @@
+---
+title: "Assignment 1: Research Proposal for PU5058 -Introduction to Health Data Science"
+author: "Mikkel Leonidovich Wolfram"
+output: pdf_document
+bibliography: references.bib
+csl: national-library-of-medicine.csl
+link-ciations: true
+---
+
+# The Phantom Storm: Predicting the total healthcare cost for patients with Coronary Heart Disease in Scotland for the next 5 years
+
+## Introduction:
+
+An estimation of 17.9 million people have lost their lives due to Cardiovascular Disease (CVD) each year globally^[@cvd_who]. Cardiovascular Disease is a collective term for heart and blood vessels disorders, which includes Coronary Heart Disease (CHD), Strokes, Peripheral Arterial Disease, and Aortic Disease^[@cvd_nhs], whilst having CHD as the most common type^[@cvd_ny_doh]. Coronary Heart Disease specifically describes the condition of having fatty substances built up and blocked the heart's blood supply. The main symptoms include chest pain, neck pain, and shortness of breath. CHD can be prevented by eating healthy diet, doing exercise regularly, and avoiding sugar consumption^[@chd_nhs].
