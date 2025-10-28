@@ -1,0 +1,48 @@
+---
+title: "Proposal"
+output: pdf_document
+---
+
+# Coronary heart disease (CHD) patient hospitalisations
+
+1. Identify and briefly describe the health care problem you want to highlight, and the target audience.
+- what is CHD?
+- why is CHD important?
+- current trend of CHD mortality in United Kingdom
+- economic burden of CHD (normalised from CVD) in United Kingdom (average)
+- current trend of CHD hospitalisations in Scotland
+- cost of healthcare per patient in Scotland in 2025 (estimated) (scot portion of UK economic burden in CVD then normalised to CHD) * (rate / 100k)
+- why knowing the future trend is a good thing (policy makers can allocate money, scientists can predict statistics, hospitals can predict incoming patients)
+- the model to use for future time-series prediction
+- future trend of CHD mortality in United Kingdom (y + 5)
+- future trend of CHD hospitalisations in Scotland (y + 5)
+- future total cost by (cost of healthcare per patient in Scotland in 2025 * number of predicted incoming patients)
+- target audience = policy makers, academics
+
+2. Identify and briefly describe the data you will need and use.
+- what is CHD? ---> WHO [also CHD ratio per CVD cases]
+- why is CHD important? ---> WHO
+- current trend of CHD mortality in United Kingdom ---> https://ourworldindata.org/cardiovascular-diseases?insight=there-are-large-disparities-in-death-rates-from-cardiovascular-diseases-worldwide#key-insights
+- economic burden of CHD (normalised from CVD) in United Kingdom (average) ---> https://academic.oup.com/ehjqcco/article/11/5/678/8038270
+- current trend of CHD hospitalisations in Scotland ---> ScotPHO
+- cost of healthcare per CHD patient in Scotland in 2025 (estimated) (scot portion of UK economic burden in CVD then normalised to CHD) * (rate / 100k) ---> $NOVEL
+- why knowing the future trend is a good thing (policy makers can allocate money, scientists can predict statistics, hospitals can predict incoming patients) ---> $OPINION
+- the model to use for future time-series prediction ---> logistic regression
+- future trend of CHD mortality in United Kingdom (y + 5) --> $OUTPUT
+- future trend of CHD hospitalisations in Scotland (y + 5) ---> $OUTPUT
+- future total cost by (cost of healthcare per patient in Scotland in 2025 * number of predicted incoming patients) ---$NOVEL
+- target audience = policy makers, academics
+
+3. Decide on the appropriate data visualisation to tell your story, and briefly describe it. You can describe it with words, or make a sketch.
+- what is CHD? ---> TEXT + PIE CHART for CHD/CVD
+- why is CHD important? ---> TEXT
+- current trend of CHD mortality in United Kingdom ---> time-series dot graph
+- economic burden of CHD (normalised from CVD) in United Kingdom (average) ---> PIE CHART for SCOTLAND/UK
+- current trend of CHD hospitalisations in Scotland ---> time-series dot graph
+- cost of healthcare per patient in Scotland in 2025 (estimated) (scot portion of UK economic burden in CVD then normalised to CHD) * (rate / 100k) ---> PIE CHART for DIRECT COST + INDIRECT COST/TOTAL COST
+- why knowing the future trend is a good thing (policy makers can allocate money, scientists can predict statistics, hospitals can predict incoming patients) ---> TEXT
+- the model to use for future time-series prediction ---> TEXT
+- future trend of CHD mortality in United Kingdom (y + 5) ---> time-series dot graph + change in colour after Y
+- future trend of CHD hospitalisations in Scotland (y + 5) ---> time-series dot graph + change in colour after Y
+- future total cost by (cost of healthcare per patient in Scotland in 2025 * number of predicted incoming patients) ---> PIE CHART for DIRECT COST + INDIRECT COST/TOTAL COST
+- target audience = policy makers, academics ---> NONE
