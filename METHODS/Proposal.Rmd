@@ -1,16 +1,48 @@
 ---
-title: "Assignment 1: Research Proposal for PU5058 -Introduction to Health Data Science"
+title: "The Phantom Storm: Predicting the Coronary Heart Disease (CHD) patient hospitalisations rate in Scotland in the next 5 years"
 author: "Mikkel Leonidovich Wolfram"
+date: "October 29, 2025"
 output: pdf_document
+fontsize: 10pt
 bibliography: references.bib
 csl: national-library-of-medicine.csl
 link-ciations: true
 ---
 
-# The Phantom Storm: Predicting the total healthcare cost for patients with Coronary Heart Disease in Scotland for the next 5 years
-
 ## Introduction:
 
 Cardiovascular Disease (CVD) is a collective term for heart and blood vessels disorders, which includes Coronary Heart Disease (CHD), Strokes, Peripheral Arterial Disease, and Aortic Disease^[@cvd_nhs], whilst having CHD as the most common type^[@cvd_ny_doh]. CHD specifically describes the condition of having fatty substances built up and blocked the heart's blood supply. The main symptoms include chest pain, neck pain, and shortness of breath. CHD can be prevented by eating healthy diet, doing exercise regularly, and reducing sugar intake^[@chd_nhs].
 
-Despite being effortlessly to prevent, an estimation of 17.9 million people have lost their lives globally due to all types of CVD combined each year^[@cvd_who]. This makes CVD responsible for 1 in every 3 deaths worldwide^[@hd_cdc].
+Despite being effortlessly preventable, an estimation of 17.9 million people have lost their lives globally due to all types of Cardiovascular Disease (CVD) combined each year^[@cvd_who]. This makes CVD responsible for 1 in every 3 deaths worldwide^[@hd_cdc].
+
+In Scotland, out of about 5.5 million people^[@pop_nrs], around 730,000 people are currently suffering from Cardiovascular Disease (CVD), out of whom 210,000 are from Coronary Heart Disease (CHD)^[@cvd_sheet_bhf]. This is undeniably a concerning public health situation. Moreover, CVD has caused more than 17,000 deaths every year. This means nearly 50 Scots have died by the hand of CVD each day^[@cvd_sheet_bhf].
+
+## Research Questions:
+
+With an increasing cost of tackling Cardiovascular Disease (CVD) each year^[@econ_burden_paper], it is imperative for policy-makers to plan budgets ahead, as well as for hospitals to brace for imminent waves of CVD patients.
+
+The focus of this work is laid on the Coronary Heart Disease (CHD) patient hospitalisations situation in Scotland, whilst aspiring to throw light on its future trend in the next five years. Thus my research questions are comprised of the following key points.
+
+1. What is the current trend of CHD patient hospitalisations in Scotland?
+3. What should be the model to use for predicting the future trend?
+4. What will be the future trend of CHD patient hospitalisations in Scotland in the next five years?
+
+These questions are important for both policy-makers and hospitals alike. The success of this work shall give them crucial information to prepare for future impact.
+
+## Data Collection and Analysis:
+
+The data relevant to the CHD patient hospitalisations in Scotland will be collected from the Scottish Public Health Observatory (ScotPHO) Online Profiles Tool^[@profiles_tool_scotpho] in a time-series format, which will include only the **Coronary heart disease (CHD) patient hospitalisations** indicator under the **Health & Wellbeing** profile for the year **2002-2023** (aggregated 3-year rolling average) and is sourced from Public Health Scotland (SMR01).
+
+Once the CHD patient hospitalisations rate in Scotland data are collected, they will be cleaned and tested against ten types of predictive methods^[@10_predictive_wm] in order to pick for the most optimal one using the Root Mean Square Error (RSME) metric^[@rmse_wiki].
+
+## Data Visualisation:
+
+To maximise conciseness for temporal data, the current trend of CHD patient hospitalisations in Scotland (with an extension for the trend in the next five years) will be visualised using a line graph. It will be colourised using the Okabe-Ito colour palette to promote inclusivity amongst people with colour blindness, as well as caption audio to aid people with visual disabilities.
+
+For both the current trend of CHD patient hospitalisations in Scotland together with the next five years prediction, the graph will represent the time interval on the x-axis (3-year aggregated) for the current trend, whilst showing the corresponding CHD patient hospitalisations rate on the y-axis, also for the current trend. After that, the x-axis will be extended further to cover for the predicting 5 years time interval along with the corresponding predicted CHD patient hospitalisations rate. However, since the base time interval is of 3-year aggregated (on ScotPHO Profiles Tool), the final predicted data point will be of 2-year aggregated only.
+
+The graph sketch is shown in figure 1. 
+```{r figure_1_chunk, fig.cap = "the visualisation sketch", out.width = "105%", echo = FALSE, message = FALSE}
+library("here")
+knitr::include_graphics(here("METHODS/figure_1.png"))
+```
