@@ -42,7 +42,7 @@ To maximise conciseness for temporal data, the current trend of CHD patient hosp
 For both the current trend of CHD patient hospitalisations in Scotland together with the next five years prediction, the graph will represent the time interval on the x-axis (3-year aggregated) for the current trend, whilst showing the corresponding CHD patient hospitalisations rate on the y-axis, also for the current trend. After that, the x-axis will be extended further to cover for the predicting 5 years time interval along with the corresponding predicted CHD patient hospitalisations rate. However, since the base time interval is of 3-year aggregated (on ScotPHO Profiles Tool), the final predicted data point will be of 2-year aggregated only.
 
 The graph sketch is shown in figure 1. 
-```{r figure_1_chunk, fig.cap = "the visualisation sketch", out.width = "105%", echo = FALSE, message = FALSE}
+```{r figure_1_chunk, fig.cap = "the visualisation sketch", out.width = "85%", echo = FALSE, message = FALSE}
 library("here")
 knitr::include_graphics(here("METHODS/figure_1.png"))
 ```
